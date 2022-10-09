@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+  }
+  .container {
+    padding: 10px;
+    border-radius: 0.8rem;
+    height: 788px;
+    background: #d9d9d9;
+    text-align: center;
+  }
+  
+  .container > h2 {
+    margin-top: -4px;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  button {
+    background-color: grey;
+    width: 310px;
+    /* height: 199px; */
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 27px;
+    margin-top: -24px;
+  
+    height: 45px;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 1120px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    button {
+      width: 80%;
+    }
+  }
+  
