@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'M PLUS Rounded 1c', sans-serif; 
 }
 .flex-container {
   padding: 20px;
@@ -51,7 +52,7 @@ button:hover {
   flex-direction: row;
   margin-top: 9px;
 }
-.scroller-1{
+.scroller-1 {
   height: 319px;
   padding: 20px;
   width: 99.7%;
@@ -85,8 +86,14 @@ img {
 .create-button > button {
   background-color: #d9d9d9;
   margin-top: -6px;
+  font-size: 60px;
   height: 122px;
-  border: 3px dotted black;}
+  border: 3px solid black;
+}
+.create-button>button:hover{
+  border: 6px dotted black;
+  font-size: 80px;
+}
 @media (max-width: 1410px) {
   .flex-container {
     flex-direction: column;
@@ -95,5 +102,14 @@ img {
 @media (max-width: 460px) {
   button {
     width: 80%;
+  }
+}
+
+@media (max-width: 530px) {
+  .product-items {
+    width: 100%;
+  }
+  img {
+    width: 100%;
   }
 }
