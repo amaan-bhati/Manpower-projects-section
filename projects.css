@@ -11,6 +11,11 @@
   font-size: 30px;
   text-align: center;
 }
+.second-container{
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+}
 .container {
   padding: 10px;
   border-radius: 0.8rem;
@@ -111,5 +116,11 @@ img {
   }
   img {
     width: 100%;
+  }
+}
+
+@media(max-width:968px){
+  .second-container{
+    flex-direction: column;
   }
 }
