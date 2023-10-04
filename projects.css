@@ -124,3 +124,28 @@ img {
     flex-direction: column;
   }
 }
+@media (max-width: 1410px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 460px) {
+  button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 530px) {
+  .product-items {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media(max-width:968px){
+  .second-container{
+    flex-direction: column;
+  }
+}
